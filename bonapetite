@@ -1,0 +1,12 @@
+n,k=map(int,input().split())
+l=list(map(int,input().split()))
+c=int(input())
+if k<=len(l):
+    del(l[k])
+x=sum(l)
+x1=x//2
+if(c!=x1):
+
+    print(c-x1)
+else:
+    print("Bon Appetit")
